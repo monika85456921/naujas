@@ -1,0 +1,32 @@
+h1{
+    background-color: pink;
+}
+article{
+    font-size: 1.2em;
+}
+.title{
+    font-family: 'Croissant One', cursive;
+    background-color: chartreuse;
+}
+.news{
+    font-family: 'Fuggles', cursive;
+    background-color: blueviolet;
+}
+.titlenews{
+    font-family: 'Oswald', sans-serif;
+    background-color: darkorchid;
+}
+.three{
+    font-family: 'Playfair Display', serif;
+    background-color: darksalmon;
+}
+.lastnews{
+    font-family: 'Skranji', cursive;
+    background-color: hotpink;
+}
+ul li{
+    color:dodgerblue
+}
+ul li ul li{
+    color:blueviolet
+}
