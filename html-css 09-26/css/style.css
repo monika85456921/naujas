@@ -1,0 +1,33 @@
+/* Base*/
+body,h1{
+    margin:0;
+}
+.container{
+    background-color: #ddff88;
+    height: 800px;
+    width: 80%;
+    margin:10px auto
+}
+header{
+    background-color: aquamarine;
+    padding: 15px;
+    border-bottom:1px dashed #5b7d05;
+}
+nav{
+    background-color: #c41dc2;
+    padding: 5px;
+}
+nav li{
+    background-color: #5c435c;
+    margin: 5px;
+    display: inline-block;
+    padding: 5px;
+}
+nav li:hover{
+    background-color: #c41dc2;
+}
+
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}

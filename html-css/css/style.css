@@ -1,0 +1,132 @@
+article{ /* elemento selectorius*/
+    color:aqua;
+}
+*{ /* universalus selektorius*/
+    color:red;
+}
+.vip{ /* klases selektorius*/
+    background-color: #00ffcc;
+} 
+#user{
+    background-color:#ffddef;
+}
+.links a[href="https://www.kitm.lt"]{ /* Atributo selectorius*/
+    color:green;
+}
+.links a[href="https://www.delfi.lt"]{
+    color:blue;
+}
+.documents a[href$=".docx"]{ /* atributo selektorius, kuris ziuri i failo pletiny*/
+    color:pink;
+}
+.documents a[href$=".xlcs"]{
+    color:brown;
+}
+.links a:hover{ /*pseudo klases selektorius*/
+    color:blueviolet;
+}
+.documents ul li:first-child{
+    background: #4c848f;
+}
+.documents ul li:last-child{
+    background-color: rgb(200,120,15);
+}
+.links ul li:nth-child(2n+3){
+    background-color: chocolate;
+}
+h1, h2{
+    text-align:center;
+}
+h1{
+    color:red;
+}
+
+h2{
+    color:crimson;
+}
+.products ul>li{
+    color:darkmagenta;
+}
+.products ul>li>ul>li{
+    color:gold
+}
+
+h1, h2{
+    color:blue;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Fuggles', cursive;
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    font-size: 2em;
+}
+
+h1{
+    text-transform: uppercase;
+}
+.links a{
+    text-decoration: none;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+h1, h2{
+    text-align: center;
+}
+article p{
+    text-align: right;
+    line-height: 2;
+}
+section .fa-ghost{
+    color:green;
+    font-size: 3em;
+}
+.fa-chess{
+    color:blueviolet
+}
+.products ul{
+    list-style: none;
+}
+header{
+    background: #84a9ab url('../img/1.jpeg');
+    background-size: cover;
+    height: 300px;
+}
+/* promo blokas*/
+.product-promo{
+    height: 300px;
+    background: #eeee url('../img/1.jpeg');
+    background-size: cover;
+    
+}
+.product-promo .product-block-content{
+    background-color: rgba(171, 150, 149);
+    text-align: center;
+    width: 60%;
+    margin:0 auto;
+    opacity: 0.5;
+}
+/* section{
+    background: linear-gradient(#00ffcc, #ffddef);
+} */
+th,td{
+    border:1px solid #000
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(2n+2){
+    background-color:#dde321 ;
+}
+tr:hover{
+    background-color:#ffddef;
+}
+
+

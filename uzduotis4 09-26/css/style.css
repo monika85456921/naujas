@@ -1,0 +1,33 @@
+.container{
+    border:25px
+}
+body{
+    margin:20px;
+}
+header{
+text-align: center;
+}
+h1{
+    font-family: 'Croissant One', cursive; 
+}
+h2{
+    font-family: 'Fuggles', cursive;
+    font-size: 3em;
+}
+p{
+    font-family: 'Mooli', sans-serif; 
+}
+.description{
+    border-style: groove;
+    border-left-style: none;
+    border-right: none;
+}
+header{
+    padding: 5px;
+}
+article{
+    display: inline-block;
+}
+footer{
+    text-align: center;
+}
