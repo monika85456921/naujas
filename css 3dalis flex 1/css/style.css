@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* responsive */
+
+@media (max-width: 1500px) {
+  .container {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  header {
+    background-color: #36c951;
+    height: 100px;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+  }
+  .navandads {
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+  }
+
+  nav {
+    background-color: #27a33e;
+    height: 150px;
+  }
+  .ads {
+    background-color: #1b6829;
+    height: 150px;
+  }
+  .content {
+    flex-direction: column;
+    width: 60%;
+    height: 300px;
+    flex-wrap: wrap-reverse;
+  }
+  article {
+    background-color: #10ec38;
+    height: 200px;
+  }
+  .footer {
+    background-color: #4cdf67;
+    height: 100px;
+  }
+}
