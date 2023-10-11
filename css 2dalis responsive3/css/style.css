@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(4, 4, 167);
+}
+/* mobile */
+@media (max-width: 500px) {
+  .container {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  header {
+    background-color: #39adbd;
+    height: 150px;
+  }
+  main {
+    background-color: #aab4b5;
+    height: 250px;
+  }
+  .sign-up {
+    background-color: #88d1d1;
+    height: 150px;
+  }
+  .feature1 {
+    background-color: #edcc77;
+    height: 150px;
+  }
+  .feature2 {
+    background-color: #e493e6;
+    height: 150px;
+  }
+  .feature3 {
+    background-color: #8237ad;
+    height: 150px;
+  }
+}
+/* tablet */
+@media (min-width: 501) and (max-width: 1279px) {
+}
+/* desktop */
+@media (min-width: 1280) {
+}
