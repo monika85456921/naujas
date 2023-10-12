@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@media (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        display: wrap;
+    }
+    /* header */
+    header{
+        background-color:#4287f5 ;
+        height: 100px;
+    }
+    /* main and aside */
+    main{ /*parent*/
+        width: 100%;
+        height: 50%;
+        display: flex;
+        display: wrap;
+    }
+    .main{ 
+        width: 70%;
+        
+    }
+    .aside{   
+        width: 30%;    /* parent */
+    }
+    article{
+        background-color:#a938cf ;
+        height: 200px;
+    }
+    .extra{
+        background-color: #4dd5f0;
+        height: 100px;
+    }
+    .side{
+        background-color:#c92c76 ;
+        height: 50px;
+    }
+    .sidetwo{
+        background-color: #d77ef2;
+        height:250px ;
+    }
+    /* below main */
+    .below{
+        display: flex
+        display: wrap;  /* parent */
+    }
+    .posts{
+        background-color: #d1c566;
+        height: 100px; 
+        width:30% ; 
+    }
+    .ads{
+        background-color: #2cc94e;
+        height: 100px; 
+        width: 70%; 
+    }
+    /* footer */
+    footer{
+       background-color: #a9ad6f;
+       height: 100px;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+/* header */
+header{
+    background-color:#4287f5 ;
+    height: 100px;
+}
+/* main and aside */
+main{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.main{ 
+    width: 70%;
+  
+     /* parent */
+}
+.aside{   
+    width: 30%;    /* parent */
+}
+article{
+    background-color:#a938cf ;
+    height: 200px;
+}
+.extra{
+    background-color: #4dd5f0;
+    height: 100px;
+}
+.side{
+    background-color:#c92c76 ;
+    height: 50px;
+}
+.sidetwo{
+    background-color: #d77ef2;
+    height:250px ;
+}
+/* below main */
+.below{
+    display: flex  /* parent */
+}
+.posts{
+    background-color: #d1c566;
+    height: 100px; 
+    width:30% ; 
+}
+.ads{
+    background-color: #2cc94e;
+    height: 100px; 
+    width: 70%; 
+}
+/* footer */
+footer{
+   background-color: #a9ad6f;
+   height: 100px;
+}
